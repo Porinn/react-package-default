@@ -1,0 +1,46 @@
+{
+  "name": "react-package-test",
+  "version": "0.0.1",
+  "description": "React package test",
+  "main": "src/index.js",
+  "scripts": {
+    "example": "webpack-dev-server --mode development",
+    "build": "rollup -c",
+    "build:watch": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porinn/react-package-test.git"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "material"
+  ],
+  "author": "Porinn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Porinn/react-package-test/issues"
+  },
+  "homepage": "https://github.com/Porinn/react-package-test#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.5",
+    "babel-loader": "^8.0.4",
+    "rollup": "^0.67.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
