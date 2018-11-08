@@ -1,8 +1,8 @@
 {
-  "name": "react-package-test",
-  "version": "0.0.1",
-  "description": "React package test",
-  "main": "src/index.js",
+  "name": "react-package-default",
+  "version": "1.0.0",
+  "description": "Default React package",
+  "main": "dist/App.js",
   "scripts": {
     "example": "webpack-dev-server --mode development",
     "build": "rollup -c",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Porinn/react-package-test.git"
+    "url": "git+https://github.com/Porinn/react-package-default.git"
   },
   "keywords": [
     "react",
@@ -20,9 +20,9 @@
   "author": "Porinn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Porinn/react-package-test/issues"
+    "url": "https://github.com/Porinn/react-package-default/issues"
   },
-  "homepage": "https://github.com/Porinn/react-package-test#readme",
+  "homepage": "https://github.com/Porinn/react-package-default#readme",
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.6.1",

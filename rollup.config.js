@@ -1,16 +1,25 @@
 import babel from "rollup-plugin-babel";
-import pkg from "./package.json";
 
 const external = id => !id.startsWith("/") && !id.startsWith(".");
 
-export default {
-    input: "./src/App.jsx",
+export default [{
+    input: "./src/App.js",
     output: {
-        file: pkg.main,  
-        format: "cjs",   
+        file: "./dist/App.js",  
+        format: "es",   
     },
     plugins: [
         babel({ runtimeHelpers: true }),
     ],
     external,
-};
+}, {
+    input: "./src/Test.js",
+    output: {
+        file: "./dist/Test.js",  
+        format: "es",   
+    },
+    plugins: [
+        babel({ runtimeHelpers: true }),
+    ],
+    external,
+}];
